@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace the placeholder domain before launch. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://your-domain.example/</loc></url>
-  <url><loc>https://your-domain.example/products.html</loc></url>
-  <url><loc>https://your-domain.example/ai-agents.html</loc></url>
-  <url><loc>https://your-domain.example/services.html</loc></url>
-  <url><loc>https://your-domain.example/industries.html</loc></url>
-  <url><loc>https://your-domain.example/manpower.html</loc></url>
-  <url><loc>https://your-domain.example/about.html</loc></url>
-  <url><loc>https://your-domain.example/contact.html</loc></url>
-  <url><loc>https://your-domain.example/faq.html</loc></url>
-  <url><loc>https://your-domain.example/privacy-policy.html</loc></url>
-  <url><loc>https://your-domain.example/terms.html</loc></url>
+  <url><loc>https://www.tirunex.com/</loc></url>
+  <url><loc>https://www.tirunex.com/products.html</loc></url>
+  <url><loc>https://www.tirunex.com/ai-agents.html</loc></url>
+  <url><loc>https://www.tirunex.com/services.html</loc></url>
+  <url><loc>https://www.tirunex.com/industries.html</loc></url>
+  <url><loc>https://www.tirunex.com/manpower.html</loc></url>
+  <url><loc>https://www.tirunex.com/about.html</loc></url>
+  <url><loc>https://www.tirunex.com/contact.html</loc></url>
+  <url><loc>https://www.tirunex.com/faq.html</loc></url>
+  <url><loc>https://www.tirunex.com/privacy-policy.html</loc></url>
+  <url><loc>https://www.tirunex.com/terms.html</loc></url>
 </urlset>
