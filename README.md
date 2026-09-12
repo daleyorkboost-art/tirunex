@@ -12,11 +12,14 @@ npx serve .
 
 No build step or Node.js server is required for deployment.
 
-## Before launch
+## Status & Configuration
 
-1. Replace the generated placeholder logo/favicon with the approved brand assets.
-2. Add verified contact and social details to `TIRUNEX_CONFIG` in `js/main.js`.
-3. Configure `formEndpoint` or an approved email destination.
-4. Replace `your-domain.example` in canonical tags, `sitemap.xml` and `robots.txt`.
-5. Obtain legal approval for the Privacy Policy and Terms & Conditions.
-6. Add analytics only after choosing an approved platform and consent approach.
+- **Brand Assets**: Extracted, cleaned transparent and dark-mode logos added in `images/logo/` and applied across header, footer, and WhatsApp widget.
+- **Client Details**: Configured with `sales@tirunex.com`, `+91 98841 82037`, Chennai address, and floating WhatsApp chat widget.
+- **Domain & SEO**: Canonical URLs, `sitemap.xml`, and `robots.txt` updated to `https://www.tirunex.com`.
+- **Static QA**: Run `node assets/qa.mjs` to validate all 11 pages (titles, meta descriptions, single H1, and internal asset links).
+
+## Optional Client Additions
+1. Optional social profile URLs (LinkedIn, X, Instagram) in `TIRUNEX_CONFIG` (`js/main.js`).
+2. Optional form backend endpoint (e.g. Web3Forms or Formspree) in `TIRUNEX_CONFIG.formEndpoint`. By default, submissions open a pre-filled email to `sales@tirunex.com`.
+3. Corporate Identification Number (CIN) in `TIRUNEX_CONFIG.cin` once provided.
